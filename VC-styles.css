@@ -15,6 +15,12 @@ h1 {
     font-size: 4em;
 }
 
+@media only screen and (max-width: 320px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
 h2 {
     font-size: 2.2em;
 }
@@ -31,8 +37,14 @@ h4 {
 }
 
 h5 {
-    margin: 20px;
+    margin: 20px 0;
     font-size: 1.5em;
+}
+
+@media only screen and (max-width: 320px) {
+    h5 {
+        font-size: 1.15em;
+    }
 }
 
 /*  /////////////////////////////////// 
@@ -42,13 +54,25 @@ Header Section
 ///////////////////////////////////
 */
 
+
 header ul {
+    
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;
     list-style-type: none;
+    text-align: center;
+    padding: 0;
         
 }
+
+@media only screen and (max-width: 320px) {
+    header ul {
+        font-size: 1em;
+    }
+}
+
+
 
 header ul li a {
     color: black;
@@ -78,10 +102,11 @@ Mission Section
     
     display: flex;
     flex-direction: column;
-    height: 130px;
+    min-height: 130px;
     background-color: white;
     width: 100%;
     justify-content: center;
+    
     
 }
 
@@ -89,6 +114,12 @@ Mission Section
     margin: 0;
     padding: 10px;
     
+}
+
+@media only screen and (max-width: 320px) {
+    h3 {
+        font-size: 1.5em;
+    }
 }
 
 /*  /////////////////////////////////// 
@@ -131,6 +162,15 @@ Portfolio Section
     min-height: 133.328px;
 
 }
+
+@media only screen and (max-width: 320px) {
+    .photo-container {
+        min-width: 133px;
+        max-width: 133px;
+        margin-right: 3px;
+    }
+}
+
 
 /*  /////////////////////////////////// 
 
