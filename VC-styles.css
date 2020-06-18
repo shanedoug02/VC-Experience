@@ -66,3 +66,47 @@ header ul li a {
     padding: 10px;
     
 }
+
+
+/*  Porfolio Section */
+
+
+.large-container {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    outline: solid black;
+    justify-content: space-around;
+}
+
+.photo-text-container {
+    outline: solid green;
+    height: 160px;
+    display: flex;
+    width: 500px;
+    align-items: center;
+} 
+
+.photo-container {
+    display: flex;
+    align-items: center;
+    outline: solid red;
+    width: 200px;
+    height: 160px;
+    margin-right: 30px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    min-height: 133.328px;
+
+}
+
+/*  /////////////////////////////////// 
+
+Our Team Section 
+
+///////////////////////////////////
+*/
+
